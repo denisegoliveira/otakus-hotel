@@ -13,4 +13,4 @@ ReactDOM.render(
 );
 
 
-//theme={theme}
+theme={theme}
