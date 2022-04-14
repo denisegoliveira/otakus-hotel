@@ -1,10 +1,11 @@
 import React from "react";
+import LayoutRegister from "./LayoutRegister";
 
 
 function Register(){
     return(
         <>
-            <h1>Henrique</h1>
+            <LayoutRegister/>
         </>
     )
 }

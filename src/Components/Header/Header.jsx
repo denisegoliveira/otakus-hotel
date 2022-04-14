@@ -6,7 +6,7 @@ import Nav from './Nav.jsx'
 
 function Header() {
     return (
-        <Flex color='white' h='70px' bg='black'>
+        <Flex color='white' h='70px' bg='black'  >
             <Box>
                 <Image
                     boxSize='55px'
@@ -20,8 +20,11 @@ function Header() {
                     boxSize='65px'
                     ml='70px'
                     mt='2px'
-                    position='fixed' 
-                    src={LogoName}/>
+                    position='fixed'
+                    src={LogoName}
+                    alt='Nome do hotel'
+                />
+                    
             </Box>
             <Spacer />
             <Box>

@@ -35,7 +35,7 @@ function Nav() {
                         <Link to='/'><Button w='260px' mt='5px'>Home</Button></Link><br/>
                         <Link to='/'><Button w='260px' mt='5px'>Reservar</Button></Link><br/>
                         <Link to='/'><Button w='260px' mt='5px'>Entrar</Button></Link><br/>
-                        <Link to='/'><Button w='260px' mt='5px'>Cadastrar</Button></Link><br/>
+                        <Link to='cadastro'><Button w='260px' mt='5px'>Cadastrar</Button></Link><br/>
                         <Link to='/'><Button w='260px' mt='5px'>Contato</Button></Link><br/>
                     </DrawerBody>
                 </DrawerContent>

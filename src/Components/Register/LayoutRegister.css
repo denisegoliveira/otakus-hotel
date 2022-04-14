@@ -1,0 +1,26 @@
+text-titulo {
+    font-size:large;
+    margin-left: 200px;
+}
+
+#div-pai {
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+
+#div-filho {
+    position: relative;
+    margin: 7%;
+    width: 84%;
+    height: 400px;
+    background: #D97D0D;
+}
+
+#imagem {
+    position: absolute;
+    margin-right: 5%;
+    bottom: 70px;
+    right: 0;
+    width: 90%;
+    height: 500px;
+}
