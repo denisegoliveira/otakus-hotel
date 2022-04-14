@@ -12,7 +12,7 @@ import {
     DrawerBody,
 } from "@chakra-ui/react";
 
-function Navbar() {
+function Nav() {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = React.useRef()
     return (
@@ -44,4 +44,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Nav;
