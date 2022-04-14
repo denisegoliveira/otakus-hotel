@@ -1,6 +1,7 @@
 import React from "react";
-import { Flex, Box, Image, Spacer, Text } from "@chakra-ui/react";
-import Logo from './img/logo.png'
+import { Flex, Box, Image, Spacer } from "@chakra-ui/react";
+import Logo from '../../assets/logo.png'
+import LogoName from '../../assets/logo2.png'
 import Nav from './Nav.jsx'
 
 function Header() {
@@ -15,7 +16,12 @@ function Header() {
                     src={Logo}
                     alt='logo'
                 />
-                <Text ml='80px' mt='20px'>Otakus's Hotel</Text>
+                <Image 
+                    boxSize='65px'
+                    ml='70px'
+                    mt='2px'
+                    position='fixed' 
+                    src={LogoName}/>
             </Box>
             <Spacer />
             <Box>
