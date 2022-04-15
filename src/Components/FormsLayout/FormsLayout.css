@@ -24,6 +24,7 @@ text-titulo {
     width: 90%;
     height: 500px;
 }
+
 #div-form{
     background:#D97D0D;
     position:absolute;
@@ -40,9 +41,11 @@ text-titulo {
         margin-top: 80px;
         height: 700px;
     }
+
     #div-filho {
         display: none;
     }
+
     #div-form{
         background:#D97D0D;
         position:absolute;
@@ -54,4 +57,5 @@ text-titulo {
         margin-right: 5%;
         border-radius:0.5em;
     }
+    
   }
