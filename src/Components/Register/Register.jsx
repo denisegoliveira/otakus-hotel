@@ -1,11 +1,12 @@
 import React from "react";
-import LayoutRegister from "./LayoutRegister";
-
-
-function Register(){
-    return(
+import { FormControl, FormLabel, Input } from "@chakra-ui/react";
+import FormsLayout from "../FormsLayout/FormsLayout.jsx"
+import LayoutInput from "../FormsLayout/LayoutInput.jsx"
+function Register() {
+    return (
         <>
-            <LayoutRegister/>
+            <FormsLayout TituloPage="Bem-Vindo!"/>
+            <LayoutInput titulo="Faça seu cadastro"/>
         </>
     )
 }
