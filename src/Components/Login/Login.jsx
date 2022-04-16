@@ -1,3 +1,4 @@
+import { FormControl, FormLabel, Input } from "@chakra-ui/react";
 import React from "react";
 import FormsLayout from "../FormsLayout/FormsLayout.jsx"
 import LayoutInput from "../FormsLayout/LayoutInput.jsx"
@@ -7,6 +8,7 @@ function Login() {
         <>
             <FormsLayout TituloPage="Bem-Vindo de volta!"/>
             <LayoutInput titulo="Entrar"/>
+         
         </>
     )
 }

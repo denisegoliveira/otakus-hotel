@@ -11,8 +11,8 @@ function LayoutInput({ titulo }) {
     return (
         <>
             <div id="div-form">
-                <div>
-                    <h1>{titulo}</h1>
+                <div id="div-titulo">
+                    <h1 id="titulo">{titulo}</h1>
                 </div>
             </div>
         </>
