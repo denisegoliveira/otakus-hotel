@@ -1,5 +1,5 @@
 import React from "react";
-import { FormControl, Grid } from "@chakra-ui/react"
+import { FormControl, FormLabel, Input, Grid } from "@chakra-ui/react"
 import "./InputLogin.css"
 function InputLogin() {
     return (
