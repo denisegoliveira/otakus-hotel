@@ -1,6 +1,12 @@
 import React, { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import App from "./App.jsx";
+
+//importações para funcionamento do carousel com swiper
+import App from "./App";
+import { ChakraProvider } from "@chakra-ui/react";
+import "./components/carousel/Carousel.css";
+
 import { ChakraProvider } from '@chakra-ui/react';
 
 import { theme } from './styles/Theme';    //tema a ser usado 
