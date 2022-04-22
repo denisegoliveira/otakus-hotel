@@ -12,11 +12,10 @@ function Banner() {
 					Bem-vindo ao <span>Otaku's Hotel</span>
 				</h1>
 				<p>
-					Possuimos um ambiente familiar dedicado ao naruto running, comer ramen
-					e passar vergonha. Café da manhã, almoço e janta com pratos temáticos
-					servidos por maids com gatinhos no ombro em nosso restaurante e um
-					serviço de quarto com os melhores animes e mangás em nosso catálogo.
-					Venha conhecer!
+					Um ambiente seguro para você e sua família, totalmente tematizado para
+					a cultaura Otaku, onde Neko's Maids servem junto a gatinhos em seus
+					ombros, aqui você pode assistir animes e ler seus mangás preferidos
+					que são disponibilizados pelos próprio Hotel.
 				</p>
 			</div>
 
