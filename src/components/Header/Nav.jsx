@@ -17,7 +17,7 @@ function Nav() {
     const btnRef = React.useRef()
     return (
         <>
-            <Button ref={btnRef} boxSize='60px'm='5px'onClick={onOpen}>
+            <Button ref={btnRef} boxSize='70px'onClick={onOpen} bg='gray.700' borderBottomRightRadius='0' borderTopRightRadius='0'>
                 <HamburgerIcon/>
             </Button>
             <Drawer
@@ -29,13 +29,13 @@ function Nav() {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerCloseButton />
-                    <DrawerHeader>Menu</DrawerHeader>
-                    <DrawerBody>
-                        <Link to='/'><Button w='260px' mt='5px'>Home</Button></Link><br/>
-                        <Link to='/'><Button w='260px' mt='5px'>Reservar</Button></Link><br/>
-                        <Link to='entrar'><Button w='260px' mt='5px'>Entrar</Button></Link><br/>
-                        <Link to='cadastro'><Button w='260px' mt='5px'>Cadastrar</Button></Link><br/>
-                        <Link to='/'><Button w='260px' mt='5px'>Contato</Button></Link><br/>
+                    <DrawerHeader bg="gray.700">Menu</DrawerHeader>
+                    <DrawerBody bg="gray.900">
+                        <Link to='/'><Button bg="gray.700" w='260px' mt='5px'>Home</Button></Link><br/>
+                        <Link to='/'><Button bg="gray.700" w='260px' mt='5px'>Reservar</Button></Link><br/>
+                        <Link to='entrar'><Button bg="gray.700" w='260px' mt='5px'>Entrar</Button></Link><br/>
+                        <Link to='cadastro'><Button bg="gray.700" w='260px' mt='5px'>Cadastrar</Button></Link><br/>
+                        <Link to='/'><Button bg="gray.700" w='260px' mt='5px'>Contato</Button></Link><br/>
                     </DrawerBody>
                 </DrawerContent>
             </Drawer>
