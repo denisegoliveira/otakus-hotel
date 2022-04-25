@@ -18,7 +18,7 @@ Otaku's Hotel é um hotel fictício, desenvolvido pelo Grupo 1, como projeto de 
 
 - Acesse a API através do [link](https://github.com/brunoandreotti/API-mod-5)
 - Utilize o Git Clone no repositório
-- **Abra ele em [http://localhost:3000](htpp://localhost:3000/) em seu Navegador
+- Abra ele em [http://localhost:3000](htpp://localhost:3000/) em seu Navegador
 - No terminal do seu VSCode digite: npm start para rodar a API
 - Não se esqueça de clonar o repositório otakus-hotel, clicando [aqui](https://github.com/denisegoliveira/otakus-hotel)
 - Além disso digite no terminal do VSCode 'npm i' para instalar as dependências
