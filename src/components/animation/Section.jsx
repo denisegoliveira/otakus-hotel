@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import styles from "./styles.module.css";
 import leave1 from "../../assets/images/leaves1.png";
 import leave2 from "../../assets/images/leaves2.png";

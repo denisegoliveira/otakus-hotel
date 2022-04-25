@@ -11,7 +11,7 @@ function Register({ TituloPage }) {
             </Center>
             <div id="div-pai">
                 <div id="div-filho">
-                    <img id="imagem" src={Imagem} />
+                    <img id="imagem" src={Imagem} alt="imagem"/>
                 </div>
             </div>
         </>

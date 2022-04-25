@@ -4,7 +4,7 @@ import App from "./App.jsx";
 
 //importações para funcionamento do carousel com swiper
 import { ChakraProvider } from "@chakra-ui/react";
-import "./Components/carousel/Carousel.css";
+import "./components/carousel/Carousel.css";
 
 import { theme } from "./styles/Theme"; //tema a ser usado
 
