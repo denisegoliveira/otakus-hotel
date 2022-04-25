@@ -4,13 +4,13 @@ Otaku's Hotel é um hotel fictício, desenvolvido pelo Grupo 1, como projeto de 
 
 ## Tecnologias Utilizadas
 
-    - React.js;
-    - Node.js;
-    - ChakraUI;
-    - Trello;
-    - Swipper;
-    - Discord;
-    - Live Share (VsCode);
+    - React.js
+    - Node.js
+    - ChakraUI
+    - Trello
+    - Swipper
+    - Discord
+    - Live Share (VsCode)
 
 ## Como Utilizar?
 
@@ -18,20 +18,19 @@ Otaku's Hotel é um hotel fictício, desenvolvido pelo Grupo 1, como projeto de 
 
 - Acesse a API através do [link](https://github.com/brunoandreotti/API-mod-5)
 - Utilize o Git Clone no repositório
-- **Abra ele em [http://localhost:3000](htpp://localhost:3000/) em seu Navegador;
-- No terminal do seu VSCode digite: npm start para rodar a API;
-- Não se esqueça de clonar o repositório otakus-hotel, clicando [aqui](https://github.com/denisegoliveira/otakus-hotel);
-- Além disso digite no terminal do VSCode 'npm i' para instalar as dependências;
+- **Abra ele em [http://localhost:3000](htpp://localhost:3000/) em seu Navegador
+- No terminal do seu VSCode digite: npm start para rodar a API
+- Não se esqueça de clonar o repositório otakus-hotel, clicando [aqui](https://github.com/denisegoliveira/otakus-hotel)
+- Além disso digite no terminal do VSCode 'npm i' para instalar as dependências
 - Após seguir todos esses passos digite finalmente no terminal: 'npm start' para rodar o projeto!
 
 ## Contatos dos Desenvolvedores
 
-- [Bruno Andreotti](https://github.com/brunoandreotti);
-- [Denise Oliveira](https://github.com/denisegoliveira);
-- [Heitor Schumann](https://github.com/heitorschumann);
-- [Henrique de Ferraz](https://github.com/henriqueferrazo);
-- [Murilo J. Antunes](https://github.com/mjantunes2).
-[Link text Here](https://link-url-here.org)
+- [Bruno Andreotti](https://github.com/brunoandreotti)
+- [Denise Oliveira](https://github.com/denisegoliveira)
+- [Heitor Schumann](https://github.com/heitorschumann)
+- [Henrique de Ferraz](https://github.com/henriqueferrazo)
+- [Murilo J. Antunes](https://github.com/mjantunes2)
 
 ## Observações
 
