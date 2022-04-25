@@ -8,7 +8,7 @@ export default function Load(props) {
 	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {
-		// Wait for 3 seconds
+		// Wait for 5 seconds
 		setTimeout(() => {
 			setIsLoading(false);
 		}, 5000);
