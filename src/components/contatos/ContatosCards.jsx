@@ -5,7 +5,13 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 export default function contatosCards(props) {
 	return (
-		<Box boxSize="380px" padding="50px" textAlign="center" fontWeight="bold">
+		<Box
+			boxSize="380px"
+			padding="50px"
+			textAlign="center"
+			fontWeight="bold"
+			margin="20px"
+		>
 			<h2>{props.nome}</h2>
 			<Avatar name={props.nome} src={props.img} size="2xl" margin="20px" />
 			<WrapItem flexDirection="row" alignItems="center" justifyContent="center">
