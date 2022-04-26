@@ -20,24 +20,25 @@ function Nav() {
             <Button ref={btnRef} boxSize='60px'm='5px'onClick={onOpen}>
                 <HamburgerIcon/>
             </Button>
+            
             <Drawer
-                isOpen={isOpen}
-                placement='right'
-                onClose={onClose}
-                finalFocusRef={btnRef}
+            isOpen={isOpen}
+            placement='right'
+            onClose={onClose}
+            finalFocusRef={btnRef}
             >
                 <DrawerOverlay />
-                <DrawerContent>
-                    <DrawerCloseButton />
-                    <DrawerHeader>Menu</DrawerHeader>
-                    <DrawerBody>
-                        <Link to='/'><Button w='260px' mt='5px'>Home</Button></Link><br/>
-                        <Link to='reservar'><Button w='260px' mt='5px'>Reservar</Button></Link><br/>
-                        <Link to='entrar'><Button w='260px' mt='5px'>Entrar</Button></Link><br/>
-                        <Link to='cadastro'><Button w='260px' mt='5px'>Cadastrar</Button></Link><br/>
-                        <Link to='/'><Button w='260px' mt='5px'>Contato</Button></Link><br/>
-                    </DrawerBody>
-                </DrawerContent>
+                    <DrawerContent>   
+                        <DrawerCloseButton />
+                        <DrawerHeader>Menu</DrawerHeader>
+                        <DrawerBody>
+                            <Link to='/'><Button w='260px' mt='5px'>Home</Button></Link><br/>
+                            <Link to='/'><Button w='260px' mt='5px'>Reservar</Button></Link><br/>
+                            <Link to='entrar'><Button w='260px' mt='5px'>Entrar</Button></Link><br/>
+                            <Link to='cadastro'><Button w='260px' mt='5px'>Cadastrar</Button></Link><br/>
+                            <Link to='/'><Button w='260px' mt='5px'>Contato</Button></Link><br/>
+                        </DrawerBody>
+                    </DrawerContent>
             </Drawer>
         </>
     )

@@ -16,6 +16,7 @@ function Header() {
                     src={Logo}
                     alt='logo'
                 />
+
                 <Image 
                     boxSize='65px'
                     ml='70px'
@@ -23,10 +24,11 @@ function Header() {
                     position='fixed'
                     src={LogoName}
                     alt='Nome do hotel'
-                />
-                    
+                />   
             </Box>
+
             <Spacer />
+
             <Box>
                 <Nav />
             </Box>
