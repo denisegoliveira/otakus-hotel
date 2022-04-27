@@ -29,13 +29,15 @@ function Nav() {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerCloseButton />
-                    <DrawerHeader bg="gray.700">Menu</DrawerHeader>
-                    <DrawerBody bg="gray.900">
-                        <Link to='/'><Button bg="gray.700" w='260px' mt='5px'>Home</Button></Link><br/>
-                        <Link to='/'><Button bg="gray.700" w='260px' mt='5px'>Reservar</Button></Link><br/>
-                        <Link to='entrar'><Button bg="gray.700" w='260px' mt='5px'>Entrar</Button></Link><br/>
-                        <Link to='cadastro'><Button bg="gray.700" w='260px' mt='5px'>Cadastrar</Button></Link><br/>
-                        <Link to='/'><Button bg="gray.700" w='260px' mt='5px'>Contato</Button></Link><br/>
+
+                    <DrawerHeader>Menu</DrawerHeader>
+                    <DrawerBody>
+                        <Link to='/'><Button w='260px' mt='5px'>Home</Button></Link><br/>
+                        <Link to='/'><Button w='260px' mt='5px'>Reservar</Button></Link><br/>
+                        <Link to='entrar'><Button w='260px' mt='5px'>Entrar</Button></Link><br/>
+                        <Link to='cadastro'><Button w='260px' mt='5px'>Cadastrar</Button></Link><br/>
+                        <Link to='/contatos'><Button w='260px' mt='5px'>Contato</Button></Link><br/>
+
                     </DrawerBody>
                 </DrawerContent>
             </Drawer>
