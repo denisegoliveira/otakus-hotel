@@ -33,8 +33,8 @@ function Nav() {
                     <DrawerHeader bg='gray.700'>Menu</DrawerHeader>
                     <DrawerBody bg="gray.900">
                         <Link to='/'><Button w='260px' mt='5px'bg='gray.700'>Home</Button></Link><br/>
-                        <Link to='/'><Button w='260px' mt='5px'bg='gray.700'>Reservar</Button></Link><br/>
-                        <Link to='entrar'><Button w='260px' mt='5px'bg='gray.700'>Entrar</Button></Link><br/>
+                        <Link to='/pratos'><Button w='260px' mt='5px'bg='gray.700'>Pratos</Button></Link><br/>
+                        <Link to='/pratos'><Button w='260px' mt='5px'bg='gray.700'>Entrar</Button></Link><br/>
                         <Link to='cadastro'><Button w='260px' mt='5px'bg='gray.700'>Cadastrar</Button></Link><br/>
                         <Link to='/contatos'><Button w='260px' mt='5px'bg='gray.700'>Contato</Button></Link><br/>
 

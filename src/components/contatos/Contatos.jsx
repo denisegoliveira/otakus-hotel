@@ -7,7 +7,7 @@ export default function Contatos() {
     <>
       <Wrap w="100%" h="100%" bg="gray.500" justify="center">
         <Box>
-          <Heading size="4xl" textAlign="center" bg="grey.500" w="100%">
+          <Heading size="4xl" textAlign="center" bg="grey.500" w="100%" mt='70px'>
             Conheça nossa equipe:{' '}
           </Heading>
         </Box>

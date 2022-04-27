@@ -6,7 +6,8 @@ import Footer from "./components/footer/Footer.jsx";
 import Header from "./components/Header/Header.jsx";
 import Home from "./components/home/Home.jsx";
 import Login from "./components/Login/Login.jsx";
-import Register from "./components/Register/Register.jsx";
+import PratoPagina from "./components/cardapio/PratoPagina.jsx";
+import NovoPratoPagina from "./components/cardapio/NovoPratoPagina.jsx";
 
 function App() {
 	return (
@@ -15,7 +16,8 @@ function App() {
 				<Router>
 					<Header />
 					<Routes>
-						<Route path="/cadastro" element={<Register />} />
+						<Route path="/pratos" element={<PratoPagina />} />
+						<Route path="/pratos/criar" element={<NovoPratoPagina />} />
 						<Route path="/entrar" element={<Login />} />
 						<Route path="/contatos" element={<Contatos />} />
 						<Route path="/" element={<Home />} />
