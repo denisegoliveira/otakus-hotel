@@ -13,7 +13,7 @@ function Register({ TituloPage }) {
             <div id="div-pai">
 
                 <div id="div-filho">
-                    <img id="imagem" alt="foto restaurante" src={Imagem} />
+                    <img id="imagem" src={Imagem} alt="imagem"/>
                 </div>
 
             </div>

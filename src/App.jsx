@@ -1,19 +1,30 @@
-import React from 'react';
-import Header from './Components/Header/Header.jsx'
-import Register from './Components/Register/Register.jsx'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './Components/Login/Login.jsx';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Load from "./components/animation/Load.jsx";
+import Contatos from "./components/contatos/Contatos.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Header from "./components/Header/Header.jsx";
+import Home from "./components/home/Home.jsx";
+import Login from "./components/Login/Login.jsx";
+import Register from "./components/Register/Register.jsx";
 
 function App() {
-  return (
-    <Router>
-      <Header/>
-      <Routes>
-        <Route path='/cadastro' element={<Register/>}/>
-        <Route path='/entrar' element={<Login/>}/>
-      </Routes>
-    </Router>
-  );
+	return (
+		<Load
+			component={
+				<Router>
+					<Header />
+					<Routes>
+						<Route path="/cadastro" element={<Register />} />
+						<Route path="/entrar" element={<Login />} />
+						<Route path="/contatos" element={<Contatos />} />
+						<Route path="/" element={<Home />} />
+					</Routes>
+					<Footer />
+				</Router>
+			}
+		/>
+	);
 }
 
 export default App;

@@ -17,7 +17,7 @@ function Nav() {
     const btnRef = React.useRef()
     return (
         <>
-            <Button ref={btnRef} boxSize='60px'm='5px'onClick={onOpen}>
+            <Button ref={btnRef} boxSize='70px'onClick={onOpen} bg='gray.700' borderBottomRightRadius='0' borderTopRightRadius='0'>
                 <HamburgerIcon/>
             </Button>
             
@@ -28,6 +28,7 @@ function Nav() {
             finalFocusRef={btnRef}
             >
                 <DrawerOverlay />
+<<<<<<< HEAD:src/Components/Header/Nav.jsx
                     <DrawerContent>   
                         <DrawerCloseButton />
                         <DrawerHeader>Menu</DrawerHeader>
@@ -39,6 +40,21 @@ function Nav() {
                             <Link to='/'><Button w='260px' mt='5px'>Contato</Button></Link><br/>
                         </DrawerBody>
                     </DrawerContent>
+=======
+                <DrawerContent>
+                    <DrawerCloseButton />
+
+                    <DrawerHeader bg='gray.700'>Menu</DrawerHeader>
+                    <DrawerBody bg="gray.900">
+                        <Link to='/'><Button w='260px' mt='5px'bg='gray.700'>Home</Button></Link><br/>
+                        <Link to='/'><Button w='260px' mt='5px'bg='gray.700'>Reservar</Button></Link><br/>
+                        <Link to='entrar'><Button w='260px' mt='5px'bg='gray.700'>Entrar</Button></Link><br/>
+                        <Link to='cadastro'><Button w='260px' mt='5px'bg='gray.700'>Cadastrar</Button></Link><br/>
+                        <Link to='/contatos'><Button w='260px' mt='5px'bg='gray.700'>Contato</Button></Link><br/>
+
+                    </DrawerBody>
+                </DrawerContent>
+>>>>>>> ef69ea45f5826eb2016bb533ff9f7f2965ddb115:src/components/Header/Nav.jsx
             </Drawer>
         </>
     )
