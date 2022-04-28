@@ -30,7 +30,7 @@ text-titulo {
     position:absolute;
     height: 550px;
     width:35%;
-    bottom: 78px;
+    bottom: 46%;
     margin-left:50%;
     border-radius:0.8em;
 }
@@ -46,7 +46,7 @@ text-titulo {
 @media screen and (max-width: 700px) {
     #div-pai{
         margin-bottom: 10px;
-        margin-top: 20px;
+        margin-top: 0px;
         height: 100px;
     }
 
@@ -59,6 +59,7 @@ text-titulo {
         position:relative;
         height: 500px;
         width:90%;
+        bottom: 50px;
         top:5%;
         margin-left:5%;
         margin-right: 5%;

@@ -28,19 +28,6 @@ function Nav() {
             finalFocusRef={btnRef}
             >
                 <DrawerOverlay />
-<<<<<<< HEAD:src/Components/Header/Nav.jsx
-                    <DrawerContent>   
-                        <DrawerCloseButton />
-                        <DrawerHeader>Menu</DrawerHeader>
-                        <DrawerBody>
-                            <Link to='/'><Button w='260px' mt='5px'>Home</Button></Link><br/>
-                            <Link to='/'><Button w='260px' mt='5px'>Reservar</Button></Link><br/>
-                            <Link to='entrar'><Button w='260px' mt='5px'>Entrar</Button></Link><br/>
-                            <Link to='cadastro'><Button w='260px' mt='5px'>Cadastrar</Button></Link><br/>
-                            <Link to='/'><Button w='260px' mt='5px'>Contato</Button></Link><br/>
-                        </DrawerBody>
-                    </DrawerContent>
-=======
                 <DrawerContent>
                     <DrawerCloseButton />
 
@@ -54,7 +41,6 @@ function Nav() {
 
                     </DrawerBody>
                 </DrawerContent>
->>>>>>> ef69ea45f5826eb2016bb533ff9f7f2965ddb115:src/components/Header/Nav.jsx
             </Drawer>
         </>
     )

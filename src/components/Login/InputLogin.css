@@ -2,7 +2,7 @@
     position: absolute;
     height: 550px;
     width: 35%;
-    bottom: 78px;
+    bottom: 46%;
     margin-left: 50%;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
         position: absolute;
         height: 300px;
         width: 50%;
-        bottom: 200px;
+        bottom: 600px;
         display: flex;
         justify-content: center;
     }
