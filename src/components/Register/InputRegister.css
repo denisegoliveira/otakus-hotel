@@ -2,14 +2,14 @@
     position: absolute;
     height: 550px;
     width: 35%;
-    bottom: 78px;
+    bottom: 58%;
     margin-left: 50%;
     display: flex;
     justify-content: center;
 }
 #input-register{
     position: absolute;
-    top:13%;
+    top:20%;
     margin-left: 16%;
     width: 90%;
 }
@@ -19,7 +19,7 @@
         position: absolute;
         height: 300px;
         width: 50%;
-        bottom: 200px;
+        bottom: 700px;
         display: flex;
         justify-content: center;
     }

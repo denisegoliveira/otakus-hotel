@@ -6,7 +6,7 @@ import InputLogin from "./InputLogin.jsx";
 function Login() {
     return (
         <>
-            <FormsLayout TituloPage="Bem-Vindo de volta!"/>
+            <FormsLayout/>
             <LayoutInput titulo="Entrar"/>
             <InputLogin />
         </>

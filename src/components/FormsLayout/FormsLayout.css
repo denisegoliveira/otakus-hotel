@@ -1,8 +1,6 @@
-text-titulo {
-    font-size:large;
-    margin-left: 200px;
-}
-
+#div-princ{
+    margin-top: 200px; 
+} 
 #div-pai {
     margin-top: 300px;
     margin-bottom: 200px;
@@ -12,6 +10,7 @@ text-titulo {
     position: relative;
     margin: 7%;
     width: 84%;
+    top: 100px;
     height: 400px;
     background: #D97D0D;
 }
@@ -30,7 +29,7 @@ text-titulo {
     position:absolute;
     height: 550px;
     width:35%;
-    bottom: 46%;
+    bottom: 54%;
     margin-left:50%;
     border-radius:0.8em;
 }
@@ -42,6 +41,8 @@ text-titulo {
 #titulo{
     font-size: 30px;
 }
+
+
 
 @media screen and (max-width: 700px) {
     #div-pai{
@@ -57,9 +58,9 @@ text-titulo {
     #div-form{
         background:#D97D0D;
         position:relative;
-        height: 500px;
+        height: 550px;
         width:90%;
-        bottom: 50px;
+        bottom: 130px;
         top:5%;
         margin-left:5%;
         margin-right: 5%;

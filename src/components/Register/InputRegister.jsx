@@ -9,8 +9,6 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import "./InputRegister.css"
 
-// const tempo = new Date()
-
 function InputRegister() {
     const schema = yup.object().shape({
         nome: yup.string().required("Este campo é obrigatorio"),
