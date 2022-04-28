@@ -25,6 +25,10 @@ export default function PratoPagina() {
     } catch (error) {
       console.log(error)
     }
+
+  // const onEdit = async id => {
+  //   await axios.patch(`https://api-mod-5.herokuapp.com/pratos/${id}`)
+  // }
   }
 
   const navigate = useNavigate()
@@ -49,9 +53,10 @@ export default function PratoPagina() {
         </Box>
         <WrapItem>
           <Wrap justify="center" w="100%">
-            {data.map(prato => (
-              <WrapItem>
-                <Prato prato={prato} onClick={onDelete}></Prato>
+            {data.map((prato, index) => (
+              
+              <WrapItem key={prato.id}>
+                <Prato  prato={prato} onClick={onDelete}></Prato>
               </WrapItem>
             ))}
           </Wrap>

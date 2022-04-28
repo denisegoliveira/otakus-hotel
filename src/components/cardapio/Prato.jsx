@@ -1,12 +1,21 @@
 import styles from "./Prato.module.css";
 import { CloseButton } from '@chakra-ui/react'
+import { EditIcon } from "@chakra-ui/icons"
+import { useNavigate } from "react-router-dom";
 
 
 
 const Prato = (props) => { 
+    const navigate = useNavigate()
     return(
         <div className={styles.card_container}>
-            <CloseButton  marginBottom="5px" color="red" onClick={() => props.onClick(props.prato.id)}/>
+            <div className={styles.icons}>
+                <CloseButton  color="red" onClick={() => props.onClick(props.prato.id)}/>
+                <button onClick={() => {navigate(`/pratos/editar/${props.prato.id}`)}}>
+                    <EditIcon className={styles.edit} ></EditIcon>
+                </button>
+            </div>
+            
             <div className={styles.card_image}>
                 <img src={props.prato.imagem} alt={props.prato.descricao}></img>
             </div>
