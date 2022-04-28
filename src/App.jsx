@@ -9,6 +9,7 @@ import Login from "./components/Login/Login.jsx";
 import PratoPagina from "./components/cardapio/PratoPagina.jsx";
 import NovoPratoPagina from "./components/cardapio/NovoPratoPagina.jsx";
 import EditarPratoPagina from "./components/cardapio/EditarPratoPagina.jsx";
+import Register from "./components/FormsLayout/FormsLayout.jsx";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 						<Route path="/pratos/criar" element={<NovoPratoPagina />} />
 						<Route path="/pratos/editar/:id" element={<EditarPratoPagina />} />
 						<Route path="/entrar" element={<Login />} />
+						<Route path="/cadastrar" element={<Register />} />
 						<Route path="/contatos" element={<Contatos />} />
 						<Route path="/" element={<Home />} />
 					</Routes>

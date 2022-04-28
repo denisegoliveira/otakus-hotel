@@ -18,7 +18,7 @@ function InputRegister() {
         }).required("Este campo é obrigatorio"),
         email: yup.string().email("Insira um email valido").required("Este campo é obrigatorio"),
         senha: yup.string(6,"Escreva no minimo 6 caracteres").required("Este campo é obrigatorio")
-      })
+    })
     
     const {register, handleSubmit, formState: {errors} } = useForm({
         resolver: yupResolver(schema)

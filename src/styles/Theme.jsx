@@ -6,7 +6,7 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bgGradient: 'linear(to-tl, gray.900,gray.500, gray.400,gray.200)',
+        bg: 'gray.500',
         color: '000',
       },
     },

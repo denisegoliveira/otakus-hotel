@@ -26,16 +26,14 @@ export default function PratoPagina() {
       console.log(error)
     }
 
-  // const onEdit = async id => {
-  //   await axios.patch(`https://api-mod-5.herokuapp.com/pratos/${id}`)
-  // }
+  
   }
 
   const navigate = useNavigate()
 
   return (
     <>
-      <Wrap w="100%" h="100%" bg="gray.500" justify="center" direction="column">
+      <Wrap w="100%" h="100%" bg="gray.500" justify="center" direction="column" mt="73px" mb="73px">
         <Box align="center">
           <Heading
             size="4xl"

@@ -9,7 +9,7 @@
   height: 100%;
   object-fit: cover;
   position: relative;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
 }
 
 .foto img {
@@ -19,9 +19,9 @@
 
 .foto:hover {
   -webkit-filter: none;
-  transition: 1s;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  transition: 0.5s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .foto_texto {

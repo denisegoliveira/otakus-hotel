@@ -16,7 +16,7 @@ function Cards() {
 			/>
 			<CardText
 				titulo={"Gastronomia"}
-				texto={"Lorem ipsum vestibulum ut, porttitor habitant."}
+				texto={"Venha provar nossa culinária baseada no mundo dos animes :3"}
 				foto={tea}
 				alt={"chá japonês"}
 			/>
