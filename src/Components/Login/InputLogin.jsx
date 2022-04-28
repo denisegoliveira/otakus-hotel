@@ -31,7 +31,7 @@ function InputLogin() {
                     <FormLabel>Email</FormLabel>
                     <Input 
                     bg="white" 
-                    w={[230, 350, 350, 270, 330]} 
+                    w={[230, 350, 200, 270, 330]} 
                     h={[50]} 
                     mb="2" 
                     type="email"
@@ -44,7 +44,7 @@ function InputLogin() {
                     <FormLabel>Senha</FormLabel>
                     <Input 
                     bg="white" 
-                    w={[230, 350, 350, 270, 330]} 
+                    w={[230, 350, 200, 270, 330]} 
                     h={[50]} 
                     mb="2" 
                     type="password" 
@@ -57,7 +57,7 @@ function InputLogin() {
 
                     <Button 
                     type="submit"
-                    w={[230, 330, 330, 270, 330]} 
+                    w={[230, 330, 200, 270, 330]} 
                     h={[50]} 
                     top="2" 
                     border="1" 
