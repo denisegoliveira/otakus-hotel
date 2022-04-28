@@ -1,18 +1,18 @@
 import React from "react";
 import { Text, Center } from '@chakra-ui/react'
-import Imagem from '../../assets/images/restaurant.jpg'
+import imagem from '../../assets/images/restaurant.jpg'
 import './FormsLayout.css'
 
-function Register({ TituloPage }) {
+function Register() {
     return (
         <>
-            <Center>
-                <Text fontSize={50}>{TituloPage}</Text>
-            </Center>
+        <div id="div-princ"></div>
             <div id="div-pai">
+
                 <div id="div-filho">
-                    <img id="imagem" src={Imagem} alt="imagem"/>
+                    <img id="imagem" src={imagem} alt="imagem" />
                 </div>
+
             </div>
         </>
     )

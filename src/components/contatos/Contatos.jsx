@@ -1,8 +1,9 @@
-import { Box, Heading, Wrap, WrapItem } from '@chakra-ui/react'
-import React from 'react'
-import ContatosCard from './ContatosCards.jsx'
+import { Box, Heading, Wrap, WrapItem } from "@chakra-ui/react";
+import React from "react";
+import ContatosCard from "./ContatosCards.jsx";
 
 export default function Contatos() {
+
   return (
     <>
       <Wrap w="100%" h="100%" bg="gray.500" justify="center">
@@ -58,4 +59,5 @@ export default function Contatos() {
       </Wrap>
     </>
   )
+
 }

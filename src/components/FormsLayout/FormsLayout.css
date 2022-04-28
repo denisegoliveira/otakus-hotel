@@ -1,8 +1,6 @@
-text-titulo {
-    font-size:large;
-    margin-left: 200px;
-}
-
+#div-princ{
+    margin-top: 200px; 
+} 
 #div-pai {
     margin-top: 300px;
     margin-bottom: 200px;
@@ -12,6 +10,7 @@ text-titulo {
     position: relative;
     margin: 7%;
     width: 84%;
+    top: 100px;
     height: 400px;
     background: #D97D0D;
 }
@@ -30,16 +29,26 @@ text-titulo {
     position:absolute;
     height: 550px;
     width:35%;
-    bottom: 78px;
+    bottom: 54%;
     margin-left:50%;
     border-radius:0.8em;
 }
+#div-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#titulo{
+    font-size: 30px;
+}
+
+
 
 @media screen and (max-width: 700px) {
     #div-pai{
-        margin-bottom: 50px;
-        margin-top: 80px;
-        height: 700px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        height: 100px;
     }
 
     #div-filho {
@@ -48,14 +57,16 @@ text-titulo {
 
     #div-form{
         background:#D97D0D;
-        position:absolute;
-        height: 700px;
+        position:relative;
+        height: 550px;
         width:90%;
-        /* bottom: 5%; */
-        /* top:100%; */
+        bottom: 130px;
+        top:5%;
         margin-left:5%;
         margin-right: 5%;
         border-radius:0.5em;
+        display: flex;
+        justify-content: center;
     }
     
   }

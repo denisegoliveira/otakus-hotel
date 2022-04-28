@@ -20,11 +20,12 @@ function Nav() {
             <Button ref={btnRef} boxSize='70px'onClick={onOpen} bg='gray.700' borderBottomRightRadius='0' borderTopRightRadius='0'>
                 <HamburgerIcon/>
             </Button>
+            
             <Drawer
-                isOpen={isOpen}
-                placement='right'
-                onClose={onClose}
-                finalFocusRef={btnRef}
+            isOpen={isOpen}
+            placement='right'
+            onClose={onClose}
+            finalFocusRef={btnRef}
             >
                 <DrawerOverlay />
                 <DrawerContent>
