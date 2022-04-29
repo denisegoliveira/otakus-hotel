@@ -1,8 +1,12 @@
-# Bem vindo ao Otaku's Hotel
+# 🏨 **Bem vindo ao Otaku's Hotel** 🍥
+
+## 🍄 **Sobre**
 
 Otaku's Hotel é um hotel fictício, desenvolvido pelo Grupo 1, como projeto de fim de módulo, da turma 10 da Resilia Educação, o Front-end foi desenvolvido em React, que consome uma API feita em Node.js, feita no módulo anterior pelo mesmo grupo.
 
-## Tecnologias Utilizadas
+---
+
+## 🧪 **Tecnologias Utilizadas**
 
     - React.js
     - Node.js
@@ -12,26 +16,61 @@ Otaku's Hotel é um hotel fictício, desenvolvido pelo Grupo 1, como projeto de 
     - Discord
     - Live Share (VsCode)
 
-## Como Utilizar?
+---
+
+## 🎮 **Ambiente de desenvolvimento**
+
+Para executar o ambiente de desenvolvimento deste projeto é necessário possuir o Node instalado em sua máquina.
+
+```bash
+$ node --version
+v16.14.0
+```
+
+- [É possivel intalar o Node nesse link](https://nodejs.org/en/)
+
+---
+
+## 🚀 **Como Utilizar?**
 
 É possível você utilizar o nosso projeto seguindos estes passos:
 
-- Acesse a API através do [link](https://github.com/brunoandreotti/API-mod-5)
-- Utilize o Git Clone no repositório
-- Abra ele em [http://localhost:3000](htpp://localhost:3000/) em seu Navegador
-- No terminal do seu VSCode digite: npm start para rodar a API
-- Não se esqueça de clonar o repositório otakus-hotel, clicando [aqui](https://github.com/denisegoliveira/otakus-hotel)
-- Além disso digite no terminal do VSCode 'npm i' para instalar as dependências
-- Após seguir todos esses passos digite finalmente no terminal: 'npm start' para rodar o projeto!
+- Utilize o Git Clone no repositório em uma pasta de sua escolha
 
-## Contatos dos Desenvolvedores
+```bash
+$ git clone https://github.com/denisegoliveira/otakus-hotel.git
+```
 
-- [Bruno Andreotti](https://github.com/brunoandreotti)
-- [Denise Oliveira](https://github.com/denisegoliveira)
-- [Heitor Schumann](https://github.com/heitorschumann)
-- [Henrique de Ferraz](https://github.com/henriqueferrazo)
-- [Murilo J. Antunes](https://github.com/mjantunes2)
+- Execute o comando a seguir no terminal para instalar as dependências:
 
-## Observações
+```bash
+$ npm install
+ou
+$ npm i
+```
+
+- Para executar o projeto digite
+
+```bash
+$ npm start
+```
+
+- A aplicação consome dados da API que pode ser acessada através desse [link](https://github.com/brunoandreotti/API-mod-5) ou acessando o deploy da aplicação clicando [aqui](https://api-mod-5.herokuapp.com/)
+
+---
+
+## 💻 **Contatos dos Desenvolvedores**
+
+- [Bruno Andreotti](https://www.linkedin.com/in/bruno-andreotti/)
+- [Denise Oliveira](https://www.linkedin.com/in/denise-g-oliveira/)
+- [Heitor Schumann](https://www.linkedin.com/in/heitorschumann/)
+- [Henrique de Ferraz](https://www.linkedin.com/in/henrique-ferraz-a46123219/)
+- [Murilo J. Antunes](https://www.linkedin.com/in/murilo-antunes-bb1143228/)
+
+---
+
+## 👀 **Observações**
 
 Sinta-se a vontade para explorar todo seu conhecimento utilizando nosso projeto, qualquer dúvida nos procure no Linkedin e nos contate!
+
+---
