@@ -1,11 +1,15 @@
-import React, { useState, useEffect } from "react";
-import Header from "./components/Header/Header.jsx";
-import Register from "./components/Register/Register.jsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./components/Login/Login.jsx";
-import Home from "./components/home/Home.jsx";
-import Footer from "./components/footer/Footer.jsx";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Load from "./components/animation/Load.jsx";
+import Contatos from "./components/contatos/Contatos.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Header from "./components/Header/Header.jsx";
+import Home from "./components/home/Home.jsx";
+import Login from "./components/Login/Login.jsx";
+import PratoPagina from "./components/cardapio/PratoPagina.jsx";
+import NovoPratoPagina from "./components/cardapio/NovoPratoPagina.jsx";
+import EditarPratoPagina from "./components/cardapio/EditarPratoPagina.jsx";
+import Register from "./components/FormsLayout/FormsLayout.jsx";
 
 function App() {
 	return (
@@ -14,8 +18,12 @@ function App() {
 				<Router>
 					<Header />
 					<Routes>
-						<Route path="/cadastro" element={<Register />} />
+						<Route path="/pratos" element={<PratoPagina />} />
+						<Route path="/pratos/criar" element={<NovoPratoPagina />} />
+						<Route path="/pratos/editar/:id" element={<EditarPratoPagina />} />
 						<Route path="/entrar" element={<Login />} />
+						<Route path="/cadastrar" element={<Register />} />
+						<Route path="/contatos" element={<Contatos />} />
 						<Route path="/" element={<Home />} />
 					</Routes>
 					<Footer />

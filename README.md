@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🏨 **Bem vindo ao Otaku's Hotel** 🍥
 
-## Available Scripts
+## 🍄 **Sobre**
 
-In the project directory, you can run:
+Otaku's Hotel é um hotel fictício, desenvolvido pelo Grupo 1, como projeto de fim de módulo, da turma 10 da Resilia Educação, o Front-end foi desenvolvido em React, que consome uma API feita em Node.js, feita no módulo anterior pelo mesmo grupo.
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🧪 **Tecnologias Utilizadas**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+    - React.js
+    - Node.js
+    - ChakraUI
+    - Trello
+    - Swipper
+    - Discord
+    - Live Share (VsCode)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎮 **Ambiente de desenvolvimento**
 
-### `npm run build`
+Para executar o ambiente de desenvolvimento deste projeto é necessário possuir o Node instalado em sua máquina.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+$ node --version
+v16.14.0
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [É possivel intalar o Node nesse link](https://nodejs.org/en/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 **Como Utilizar?**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+É possível você utilizar o nosso projeto seguindos estes passos:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Utilize o Git Clone no repositório em uma pasta de sua escolha
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+$ git clone https://github.com/denisegoliveira/otakus-hotel.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Execute o comando a seguir no terminal para instalar as dependências:
 
-## Learn More
+```bash
+$ npm install
+ou
+$ npm i
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Para executar o projeto digite
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ npm start
+```
 
-### Code Splitting
+- A aplicação consome dados da API que pode ser acessada através desse [link](https://github.com/brunoandreotti/API-mod-5) ou acessando o deploy da aplicação clicando [aqui](https://api-mod-5.herokuapp.com/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+---
 
-### Analyzing the Bundle Size
+## 💻 **Contatos dos Desenvolvedores**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- [Bruno Andreotti](https://www.linkedin.com/in/bruno-andreotti/)
+- [Denise Oliveira](https://www.linkedin.com/in/denise-g-oliveira/)
+- [Heitor Schumann](https://www.linkedin.com/in/heitorschumann/)
+- [Henrique de Ferraz](https://www.linkedin.com/in/henrique-ferraz-a46123219/)
+- [Murilo J. Antunes](https://www.linkedin.com/in/murilo-antunes-bb1143228/)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## 👀 **Observações**
 
-### Advanced Configuration
+Sinta-se a vontade para explorar todo seu conhecimento utilizando nosso projeto, qualquer dúvida nos procure no Linkedin e nos contate!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
