@@ -55,6 +55,8 @@ $ npm i
 $ npm start
 ```
 
+- Também é possível acessar a aplicação clicando neste [link](https://otaku-hotel.netlify.app/).
+
 - A aplicação consome dados da API que pode ser acessada através desse [link](https://github.com/brunoandreotti/API-mod-5) ou acessando o deploy da aplicação clicando [aqui](https://api-mod-5.herokuapp.com/)
 
 ---
