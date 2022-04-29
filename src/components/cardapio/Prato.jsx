@@ -1,34 +1,49 @@
 import styles from "./Prato.module.css";
-// import { useNavigate } from "react-router-dom";
-import ramen from "../../assets/images/ramen.jpg";
+import { CloseButton } from '@chakra-ui/react'
+import { EditIcon } from "@chakra-ui/icons"
+import { useNavigate } from "react-router-dom";
 
-const Prato = ( { prato, text }) => { 
+
+
+const Prato = (props) => { 
+    const navigate = useNavigate()
     return(
         <div className={styles.card_container}>
+            <div className={styles.icons}>
+                <CloseButton  color="red" onClick={() => props.onClick(props.prato.id)}/>
+                <button onClick={() => {navigate(`/pratos/editar/${props.prato.id}`)}}>
+                    <EditIcon className={styles.edit} ></EditIcon>
+                </button>
+            </div>
+            
             <div className={styles.card_image}>
-                <img src={ramen} alt={text}></img>
+                <img src={props.prato.imagem} alt={props.prato.descricao}></img>
             </div>
             <div className={styles.card_titulo}>
             <h1>
-                <span>{prato?.nome}</span>
+                <span>{props.prato.nome}</span>
             </h1>
+            
             </div>
 
             <div className={styles.preco}>
             <p>
-                R$ <span>{prato?.preco}</span>
+                R$ <span>{props.prato.preco}</span>
             </p>
             </div>
 
             <div className={styles.card_text}>
             <p>
-                Tipo: <span>{prato?.tipo}</span>
+                ID: <span>{props.prato.id}</span>
+            </p>  
+            <p>
+                Tipo: <span>{props.prato.tipo}</span>
             </p>
             <p>
-                Descrição: <span>{prato?.descricao}</span>
+                Descrição: <span>{props.prato.descricao}</span>
             </p>
             <p>
-                Vegan: <span>{prato?.vegan}</span>
+                Vegan: <span>{props.prato.vegan}</span>
             </p>
             </div>
 

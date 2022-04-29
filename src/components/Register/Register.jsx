@@ -1,13 +1,16 @@
 import React from "react";
-import FormsLayout from "../FormsLayout/FormsLayout.jsx";
-import LayoutInput from "../FormsLayout/LayoutInput.jsx";
-function Register() {
-	return (
-		<section>
-			<FormsLayout TituloPage="Bem-Vindo!" />
-			<LayoutInput titulo="Faça seu cadastro" />
-		</section>
-	);
+import FormsLayout from "../FormsLayout/FormsLayout.jsx"
+import LayoutInput from "../FormsLayout/LayoutInput.jsx"
+import InputLogin from "../Login/InputLogin.jsx";
+
+function Login() {
+    return (
+        <>
+            <FormsLayout/>
+            <LayoutInput titulo="Entrar"/>
+            <InputLogin />
+        </>
+    )
 }
 
-export default Register;
+export default Login;

@@ -1,12 +1,11 @@
-import { Link } from "@chakra-ui/react";
 import styles from "./LinkButton.module.css";
 
-function LinkButton({ to, text }) {
+function Button(props) {
   return (
-    <Link className={styles.button} to={to}>
-      {text}
-    </Link>
+    <button className={styles.button} >
+      {props.text}
+    </button>
   );
 }
 
-export default LinkButton;
+export default Button;
